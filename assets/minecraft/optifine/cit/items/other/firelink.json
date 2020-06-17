@@ -1,0 +1,41 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "./firelink"
+    },
+	"display": {
+        "thirdperson_righthand": {
+            "rotation": [ 0, 90, 35 ],
+            "translation": [ 0, 13.5, -1.5 ],
+            "scale": [ 1.7, 1.7, 0.85 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 0, -90, -35 ],
+            "translation": [ 0, 13.5, -1.5 ],
+            "scale": [ 1.7, 1.7, 0.85 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, -90, 25 ],
+            "translation": [ 0.77, 10.2, 4.13 ],
+            "scale": [ 1.36, 1.36, 0.68 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 90, -25 ],
+            "translation": [ 0.77, 10.2, 4.13 ],
+            "scale": [ 1.36, 1.36, 0.68 ]
+        },
+		"gui": {
+			"scale": [ 2.0, 2.0, 0.0 ],
+			"translation": [ 8.0, 8.0, 0 ]
+		},
+		"ground": {
+            "translation": [ 4, 4.0, 0],
+            "scale":[ 1.0, 1.0, 0.5 ]
+        },
+		"fixed": {
+			"scale": [ 2.0, 2.0, 1.0 ],
+			"rotation": [ 0, 180, 0 ],
+			"translation": [ -8.0, 8.0, 0 ]
+		}
+    }
+}
